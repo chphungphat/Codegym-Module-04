@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="textEditor" class="com.codegym.injection.constructor.TextEditor">
+        <constructor-arg ref="spellChecker"/>
+        <constructor-arg ref="hieuTiger"/>
+    </bean>
+
+    <bean id="hieuTiger" class="com.codegym.injection.constructor.HieuTiger"/>
+
+    <bean id="spellChecker" class="com.codegym.injection.constructor.SpellChecker"/>
+</beans>

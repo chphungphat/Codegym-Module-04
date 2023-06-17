@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.codegym.injection.setter.Student"
+        p:name="Huong"/>
+
+    <bean id="clazz" class="com.codegym.injection.setter.Clazz"
+          p:id="1" p:name="C10" p:student-ref="student"/>
+
+<!--    <bean id="tran" class="com.codegym.injection.setter.Tran"-->
+<!--        p:id="1" p:fullName="Huyen Tran" p:clazz-ref="clazz">-->
+<!--        <constructor-arg index="0" value="2"/>-->
+<!--        <constructor-arg index="1" value="C10"/>-->
+<!--        <constructor-arg index="2" ref="clazz"/>-->
+<!--    </bean>-->
+</beans>
