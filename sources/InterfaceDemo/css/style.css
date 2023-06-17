@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    height: 100%;
+    font-family: Lato, sans-serif;
+    color: #231b2e;
+    font-size: 0.9em;
+}
+
+main {
+    flex: 1 0 auto;
+
+    display: flex;
+}
+
+footer {
+    flex: 0 0 90px;
+    padding: 10px;
+    color: #fff;
+    background-color: black;
+}
+
+aside {
+    flex: 0 0 240px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #231b2e;
+}
+
+aside i.fa {
+    font-size: 1.5em;
+}
+
+.sb-cate {
+    padding: 0 10px;
+}
+
+.sb-item {
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.sb-icon {
+    color: white;
+}
+
+.sidebar-logo {
+    width: 240px;
+    height: 0;
+}
