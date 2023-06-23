@@ -1,7 +1,6 @@
 package com.codegym.customermanagementjpa.configuration;
 
 import com.codegym.customermanagementjpa.repository.CustomerRepository;
-import com.codegym.customermanagementjpa.repository.CustomerRepositoryImpl;
 import com.codegym.customermanagementjpa.service.CustomerService;
 import com.codegym.customermanagementjpa.service.CustomerServiceImpl;
 import org.springframework.beans.BeansException;
@@ -11,6 +10,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -34,6 +34,7 @@ import java.util.Properties;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan("com.codegym.customermanagementjpa.controller")
+@EnableJpaRepositories("com.codegym.customermanagementjpa.repository")
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     private ApplicationContext applicationContext;
 
@@ -110,11 +111,6 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
         properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         return properties;
-    }
-
-    @Bean
-    public CustomerRepository customerRepository() {
-        return new CustomerRepositoryImpl();
     }
 
     @Bean
