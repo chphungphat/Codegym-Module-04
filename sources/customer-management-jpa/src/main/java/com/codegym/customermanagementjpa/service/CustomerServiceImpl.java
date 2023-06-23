@@ -1,6 +1,7 @@
 package com.codegym.customermanagementjpa.service;
 
 import com.codegym.customermanagementjpa.model.Customer;
+import com.codegym.customermanagementjpa.model.Province;
 import com.codegym.customermanagementjpa.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,5 +31,10 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public void remove(Long id) {
         customerRepository.deleteById(id);
+    }
+
+    @Override
+    public Iterable<Customer> findAllByProvince(Province province) {
+        return customerRepository.findAllByProvince(province);
     }
 }

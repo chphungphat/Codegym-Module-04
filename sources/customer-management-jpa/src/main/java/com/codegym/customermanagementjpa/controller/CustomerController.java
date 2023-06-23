@@ -1,7 +1,9 @@
 package com.codegym.customermanagementjpa.controller;
 
 import com.codegym.customermanagementjpa.model.Customer;
+import com.codegym.customermanagementjpa.model.Province;
 import com.codegym.customermanagementjpa.service.CustomerService;
+import com.codegym.customermanagementjpa.service.ProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +21,9 @@ public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private ProvinceService provinceService;
 
     @GetMapping("/customers")
     public ModelAndView listCustomers() {
@@ -86,5 +91,10 @@ public class CustomerController {
     public String deleteCustomer(@ModelAttribute("customer") Customer customer) {
         customerService.remove(customer.getId());
         return "redirect:customers";
+    }
+
+    @ModelAttribute("provinces")
+    public Iterable<Province> provinces() {
+        return provinceService.findAll();
     }
 }
