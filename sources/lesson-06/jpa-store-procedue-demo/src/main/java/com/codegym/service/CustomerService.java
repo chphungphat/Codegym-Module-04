@@ -1,2 +1,7 @@
-package com.codegym.service;public interface CustomerService {
+package com.codegym.service;
+
+import com.codegym.model.Customer;
+
+public interface CustomerService {
+    boolean insertWithStoredProcedure(Customer customer);
 }
