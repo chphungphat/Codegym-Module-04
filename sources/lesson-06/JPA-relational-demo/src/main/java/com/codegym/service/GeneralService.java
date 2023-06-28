@@ -1,10 +1,10 @@
-package com.codegym.customermanagementjpa.service;
+package com.codegym.service;
 
 import java.util.List;
 import java.util.Optional;
 
 public interface GeneralService<T> {
-    Iterable<T> findAll();
+    List<T> findAll();
 
     Optional<T> findById(Long id);
 

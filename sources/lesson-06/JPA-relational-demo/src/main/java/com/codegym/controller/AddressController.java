@@ -1,2 +1,4 @@
-package com.codegym.controller;public class AddressController {
+package com.codegym.controller;
+
+public class AddressController {
 }

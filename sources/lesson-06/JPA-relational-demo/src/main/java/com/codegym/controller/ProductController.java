@@ -1,2 +1,4 @@
-package com.codegym.controller;public class ProductController {
+package com.codegym.controller;
+
+public class ProductController {
 }
