@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bread Eggs</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div th:text="You have + ${eggListSize} + eggs">
+</div>
+<div th:switch="${hero}">
+    <p th:case="*">asdsadsa</p>
+</div>
+</body>
+</html>
