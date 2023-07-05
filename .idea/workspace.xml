@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="160ae580-6ce7-461c-b00c-2973f4180e82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ClimaxStore/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaxStore/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClimaxStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaxStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +29,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/reyon/CodeGym/CodeGym-Module-04/ClimaxStore",
+    "last_opened_file_path": "/home/reyon",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

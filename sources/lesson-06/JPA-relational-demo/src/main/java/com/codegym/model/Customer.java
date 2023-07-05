@@ -1,5 +1,9 @@
 package com.codegym.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import org.springframework.transaction.annotation.Transactional;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -8,7 +12,7 @@ import java.util.List;
 public class Customer {
     @Id
     @Column(name = "customer_id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name = "firstName")
@@ -18,7 +22,9 @@ public class Customer {
     private String lastName;
 
 
-    @OneToMany(targetEntity = Customer_Address.class, mappedBy = "customer")
+    @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
+//    @OneToMany
+//    @JsonManagedReference
     private List<Customer_Address> customerAddresses;
 
     public Customer(Long id, String firstName, String lastName, List<Customer_Address> customerAddresses) {
@@ -54,6 +60,7 @@ public class Customer {
         this.lastName = lastName;
     }
 
+//    @Transactional
     public List<Customer_Address> getCustomerAddresses() {
         return customerAddresses;
     }

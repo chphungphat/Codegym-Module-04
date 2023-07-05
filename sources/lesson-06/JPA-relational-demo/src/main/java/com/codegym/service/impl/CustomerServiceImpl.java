@@ -1,10 +1,12 @@
 package com.codegym.service.impl;
 
 import com.codegym.model.Customer;
+import com.codegym.model.Customer_Address;
 import com.codegym.repository.CustomerRepository;
 import com.codegym.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,8 +17,11 @@ public class CustomerServiceImpl implements CustomerService {
     private CustomerRepository customerRepository;
 
     @Override
+    @Transactional
     public List<Customer> findAll() {
-        return customerRepository.findAll();
+        List<Customer> customers =customerRepository.findAll();
+        List<Customer_Address> customerAddress = customers.get(0).getCustomerAddresses();
+        return customers;
     }
 
     @Override

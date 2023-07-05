@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b443b4e-3d47-4c1b-97b1-b83ffe7641e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/configuration/SecurityV1Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/configuration/SecurityV2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/configuration/ViewsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/configuration/WebAppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/controller/advice/NotFoundControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/formatter/RoleFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-18/demo-for-relational/src/main/java/com/codegym/demoforrelational/model/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/model/Customer_Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/model/Customer_Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-06/JPA-relational-demo/src/main/java/com/codegym/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/configuration/SecurityV1Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/configuration/SecurityV2Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/configuration/ViewsConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/configuration/WebAppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/controller/advice/NotFoundControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/formatter/RoleFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/dto/RoleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/GeneralService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/impl/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/error-403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/error-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/role/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/role/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/role/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/role/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/user/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/user/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/user/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/main/resources/templates/user/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-18-security-in-spring-boot-monolith/lesson-18-security-in-spring-boot-monolith/src/test/java/com/codegym/cms/ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2S8ulPEFd0Yf04LXqNcN0VlzwDM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/reyon/Codegym/Codegym-Module-04/sources/lesson-11",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b443b4e-3d47-4c1b-97b1-b83ffe7641e6" name="Changes" comment="" />
+      <created>1688540679720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688540679720</updated>
+      <workItem from="1688540680843" duration="197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
