@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sources/R2SSpringSecurity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT" vcs="Git" />
   </component>
 </project>

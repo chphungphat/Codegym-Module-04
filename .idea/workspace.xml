@@ -5,7 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="160ae580-6ce7-461c-b00c-2973f4180e82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ClimaxStore.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/constraint/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/resources/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/DemoSpringBoot3Security6JwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/entity/model/request/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/entity/model/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/entity/model/response/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/repo/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/java/com/example/demospringboot3_security6_jwt/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/demoSpringBoot3_Security6_JWT/src/test/java/com/example/demospringboot3_security6_jwt/DemoSpringBoot3Security6JwtApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/controllers/PokemonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/controllers/ReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/dto/AuthResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/dto/PokemonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/dto/PokemonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/dto/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/dto/ReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/exceptions/ErrorObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/exceptions/PokemonNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/exceptions/ReviewNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/models/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/models/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/models/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/repository/PokemonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/repository/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/security/JWTGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/security/JwtAuthEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/security/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/service/PokemonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/service/ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/service/impl/PokemonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/java/com/pokemonreview/api/service/impl/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/ApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/controller/PokemonControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/controller/ReviewControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/repository/PokemonRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/repository/ReviewRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/service/PokemonServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/pokemon-review-springboot-master/src/test/java/com/pokemonreview/api/service/ReviewServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/jwt-security.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/config/LogoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/demo/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/demo/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/demo/ManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/token/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/token/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/token/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/user/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/java/com/alibou/security/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/spring-boot-3-jwt-security-main/src/test/java/com/alibou/security/SecurityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaxStore/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaxStore/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaxStore/.idea/dataSources/ab44c7e7-5f6a-49ca-b025-aa1d5c0809b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaxStore/.idea/dataSources/ab44c7e7-5f6a-49ca-b025-aa1d5c0809b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaxStore/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaxStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaxStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/config/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/config/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/java/com/r2s/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sources/R2SSpringSecurity/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/lesson-18/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lesson-18/lesson-18-security-in-spring-boot-monolith/src/main/java/com/codegym/cms/model/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/lesson-18/lesson-18-security-in-spring-boot-monolith/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sources/lesson-18/lesson-18-security-in-spring-boot-monolith/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +144,16 @@
     </option>
   </component>
   <component name="ProjectId" id="2RB2dFudUBVpd7ZJehA7CVxoexw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,5 +182,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
